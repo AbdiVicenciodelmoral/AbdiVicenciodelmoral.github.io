@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/AbdiVicenciodelmoral.github.io/static/css/main.6e324986.css",
-    "main.js": "/AbdiVicenciodelmoral.github.io/static/js/main.2a0ad6d9.js",
-    "static/js/453.5aa62e47.chunk.js": "/AbdiVicenciodelmoral.github.io/static/js/453.5aa62e47.chunk.js",
-    "index.html": "/AbdiVicenciodelmoral.github.io/index.html",
-    "main.6e324986.css.map": "/AbdiVicenciodelmoral.github.io/static/css/main.6e324986.css.map",
-    "main.2a0ad6d9.js.map": "/AbdiVicenciodelmoral.github.io/static/js/main.2a0ad6d9.js.map",
-    "453.5aa62e47.chunk.js.map": "/AbdiVicenciodelmoral.github.io/static/js/453.5aa62e47.chunk.js.map"
+    "main.css": "/static/css/main.6e324986.css",
+    "main.js": "/static/js/main.dfb8ae21.js",
+    "static/js/453.5aa62e47.chunk.js": "/static/js/453.5aa62e47.chunk.js",
+    "index.html": "/index.html",
+    "main.6e324986.css.map": "/static/css/main.6e324986.css.map",
+    "main.dfb8ae21.js.map": "/static/js/main.dfb8ae21.js.map",
+    "453.5aa62e47.chunk.js.map": "/static/js/453.5aa62e47.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.6e324986.css",
-    "static/js/main.2a0ad6d9.js"
+    "static/js/main.dfb8ae21.js"
   ]
 }
