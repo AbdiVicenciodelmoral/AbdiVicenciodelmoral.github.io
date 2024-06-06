@@ -1,4 +1,5 @@
 
+import Navbar from './components/Navbar';
 import './App.css';
 
 function App(){
@@ -9,13 +10,10 @@ function App(){
 
   return (
     <div className="App">
-      <header className="App-header">
-        <h1>
-          Hello
-        </h1>
-        <button onClick={handleClick} className="my-button">Button</button>
+      <Navbar />
+      <section id='Home'>
+      </section>
 
-      </header>
     </div>
   );
 }
