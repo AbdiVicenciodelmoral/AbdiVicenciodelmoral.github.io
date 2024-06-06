@@ -12,6 +12,7 @@ function App(){
     <div className="App">
       <Navbar />
       <section id='Home'>
+        <p>Welcome</p>
       </section>
 
     </div>

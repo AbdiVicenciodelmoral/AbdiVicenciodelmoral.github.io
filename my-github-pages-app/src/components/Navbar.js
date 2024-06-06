@@ -1,7 +1,12 @@
 import './Navbar.css'
 
 const Navbar = () => {
-    <h1>Abdi Vicenciodelmoral</h1>
+    return(
+        <nav className="navbar">
+            <h1>Abdi Vicenciodelmoral</h1>
+        </nav>
+    )
+    
 }
 
 
