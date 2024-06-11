@@ -29,7 +29,7 @@ function App(){
 
   return (
     <div className="App">
-      <Navbar />
+      <Navbar onNavClick={handleNavClick} />
       <section id='home' style={{ display: activeSection === 'home' ? 'block' : 'none' }}>
         <h2>Home</h2>
         <p>Exploring the intersection of data and innovation through machine learning projects.</p>

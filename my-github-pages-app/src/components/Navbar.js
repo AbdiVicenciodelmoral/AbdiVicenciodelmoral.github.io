@@ -12,12 +12,17 @@ https://developer.mozilla.org/en-US/docs/Web/HTML/Element/ul
 
 
 const Navbar = ({onNavClick}) => {
+    const handleClick = (section, event) =>{
+        event.preventDefault();
+        onNavClick(section);
+
+    }
     return(
         <nav className="navbar">
             <h1>Abdi Vicenciodelmoral</h1>
             <ul>
-                <li><a href="#home" onClick={() => onNavClick('home')}>Home</a></li>
-                <li><a href="#profile" onClick={() => onNavClick('profile')}>Profile</a></li>
+                <li><a href="#home" onClick={() => handleClick('home')}>Home</a></li>
+                <li><a href="#profile" onClick={() => handleClick('profile')}>Profile</a></li>
             </ul>
         </nav>
     )
