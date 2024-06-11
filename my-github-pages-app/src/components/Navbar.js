@@ -1,3 +1,5 @@
+
+import React from 'react';
 import './Navbar.css'
 
 /*The <ul> element is for grouping a collection of items that do not have a numerical ordering, 
@@ -9,13 +11,13 @@ https://developer.mozilla.org/en-US/docs/Web/HTML/Element/ul
 
 
 
-const Navbar = () => {
+const Navbar = ({onNavClick}) => {
     return(
         <nav className="navbar">
             <h1>Abdi Vicenciodelmoral</h1>
             <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#profile">Profile</a></li>
+                <li><a href="#home" onClick={() => onNavClick('home')}>Home</a></li>
+                <li><a href="#profile" onClick={() => onNavClick('profile')}>Profile</a></li>
             </ul>
         </nav>
     )
