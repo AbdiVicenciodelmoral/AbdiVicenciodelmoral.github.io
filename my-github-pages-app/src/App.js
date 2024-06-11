@@ -12,7 +12,8 @@ function App(){
     <div className="App">
       <Navbar />
       <section id='Home'>
-        <p>Welcome</p>
+        <h2>Home</h2>
+        <p>Exploring the intersection of data and innovation through machine learning projects.</p>
       </section>
 
     </div>
