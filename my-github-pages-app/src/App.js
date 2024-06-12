@@ -38,6 +38,10 @@ function App(){
         <h2>Profile</h2>
         <p>This section showcases my skills, knowledge, and experience</p>
       </section>
+      <section id='projects' style={{display: activeSection === 'projects' ? 'block' : 'none'}}>
+        <h2>Projects</h2>
+        <p>This section contains a collections of projects</p>
+      </section>
 
     </div>
   );

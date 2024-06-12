@@ -23,6 +23,7 @@ const Navbar = ({onNavClick}) => {
             <ul>
             <li><a href="#home" onClick={(e) => handleClick('home', e)}>Home</a></li>
             <li><a href="#profile" onClick={(e) => handleClick('profile', e)}>Profile</a></li>
+            <li><a href="#projects" onClick={(e) => handleClick('projects', e)}>Projects</a></li>
             </ul>
         </nav>
     )
