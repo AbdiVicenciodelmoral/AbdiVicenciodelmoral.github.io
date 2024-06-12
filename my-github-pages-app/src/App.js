@@ -42,6 +42,10 @@ function App(){
         <h2>Projects</h2>
         <p>This section contains a collections of projects</p>
       </section>
+      <section id='research-hub' style={{ display: activeSection === 'research-hub' ? 'block' : 'none' }}>
+        <h2>Research Hub</h2>
+        <p>This section contains research papers, guides, and other resources related to machine learning.</p>
+      </section>
 
     </div>
   );
