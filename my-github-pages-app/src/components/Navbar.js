@@ -26,7 +26,7 @@ const Navbar = ({onNavClick}) => {
             <li><a href="#projects" onClick={(e) => handleClick('projects', e)}>Projects</a></li>
             <li><a href="#projects" onClick={(e) => handleClick('projects', e)}>Projects</a></li>
             <li><a href="#research-hub" onClick={(e) => handleClick('research-hub', e)}>Research Hub</a></li>
-            
+            <li><a href="#contact" onClick={(e) => handleClick('contact', e)}>Contact</a></li>
 
             </ul>
         </nav>

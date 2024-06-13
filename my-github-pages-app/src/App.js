@@ -46,6 +46,11 @@ function App(){
         <h2>Research Hub</h2>
         <p>This section contains research papers, guides, and other resources related to machine learning.</p>
       </section>
+      <section id='contact' style={{ display: activeSection === 'contact' ? 'block' : 'none' }}>
+        <h2>Contact</h2>
+        <p>This section contains contact information, email, LinkedIn Profile, etc...</p>
+      </section>
+
 
     </div>
   );
