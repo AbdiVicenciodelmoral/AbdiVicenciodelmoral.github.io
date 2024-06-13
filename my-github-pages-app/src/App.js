@@ -33,6 +33,10 @@ function App(){
       <section id='home' style={{ display: activeSection === 'home' ? 'block' : 'none' }}>
         <h2>Home</h2>
         <p>Exploring the intersection of data and innovation through machine learning projects.</p>
+        <div className='intro'>
+          <h1>Abdi Vicenciodelmoral</h1>
+          <h2>Machine Learning Enthusiast</h2>
+        </div>
       </section>
       <section id='profile' style={{display: activeSection === 'profile' ? 'block' : 'none'}}>
         <h2>Profile</h2>
