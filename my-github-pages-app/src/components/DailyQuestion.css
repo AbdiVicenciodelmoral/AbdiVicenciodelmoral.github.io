@@ -19,15 +19,23 @@
   
   .daily-question li {
     margin: 10px 0;
-    padding: 10px;
-    cursor: pointer;
   }
   
-  .daily-question li.correct {
+  .daily-question button {
+    width: 100%;
+    padding: 10px;
+    font-size: 1em;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: #f0f0f0;
+  }
+  
+  .daily-question button.correct {
     background-color: lightgreen;
   }
   
-  .daily-question li.incorrect {
+  .daily-question button.incorrect {
     background-color: lightcoral;
   }
   

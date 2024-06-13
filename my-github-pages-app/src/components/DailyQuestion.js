@@ -24,29 +24,37 @@ const DailyQuestion = () => {
       <h2>Daily Machine Learning Question</h2>
       <p>Question: What is overfitting in machine learning?</p>
       <ul>
-        <li 
-          className={getAnswerClass('A')}
-          onClick={() => handleClick('A')}
-        >
-          A. When a model is too simple and performs poorly on training data.
+        <li>
+          <button 
+            className={getAnswerClass('A')}
+            onClick={() => handleClick('A')}
+          >
+            A. When a model is too simple and performs poorly on training data.
+          </button>
         </li>
-        <li 
-          className={getAnswerClass('B')}
-          onClick={() => handleClick('B')}
-        >
-          B. When a model performs well on training data but poorly on unseen data.
+        <li>
+          <button 
+            className={getAnswerClass('B')}
+            onClick={() => handleClick('B')}
+          >
+            B. When a model performs well on training data but poorly on unseen data.
+          </button>
         </li>
-        <li 
-          className={getAnswerClass('C')}
-          onClick={() => handleClick('C')}
-        >
-          C. When a model is too complex and performs well on unseen data.
+        <li>
+          <button 
+            className={getAnswerClass('C')}
+            onClick={() => handleClick('C')}
+          >
+            C. When a model is too complex and performs well on unseen data.
+          </button>
         </li>
-        <li 
-          className={getAnswerClass('D')}
-          onClick={() => handleClick('D')}
-        >
-          D. When a model is neither too simple nor too complex.
+        <li>
+          <button 
+            className={getAnswerClass('D')}
+            onClick={() => handleClick('D')}
+          >
+            D. When a model is neither too simple nor too complex.
+          </button>
         </li>
       </ul>
     </div>
