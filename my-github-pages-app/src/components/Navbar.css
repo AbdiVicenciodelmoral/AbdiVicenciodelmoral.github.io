@@ -11,7 +11,7 @@
 /*Controls the styling of the heading (<h1>) in the navigation bar.*/
 .navbar h1 {
   margin-right: auto;
-  font-size: 32px;
+  font-size: 48px;
 }
 
 /*Controls the styling of the unordered list (<ul>) that contains the navigation links.*/
