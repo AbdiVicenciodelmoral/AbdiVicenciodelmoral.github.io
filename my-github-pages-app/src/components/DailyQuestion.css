@@ -19,4 +19,15 @@
   
   .daily-question li {
     margin: 10px 0;
+    padding: 10px;
+    cursor: pointer;
   }
+  
+  .daily-question li.correct {
+    background-color: lightgreen;
+  }
+  
+  .daily-question li.incorrect {
+    background-color: lightcoral;
+  }
+  
