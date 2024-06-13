@@ -31,3 +31,30 @@
   cursor: pointer;
   border-radius: 4px;
 }
+
+
+/* For the intro on the Home Tab*/
+.intro {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.intro h1 {
+  font-size: 2.5em;
+}
+
+.intro h2 {
+  font-size: 1.5em;
+  color: #666;
+}
+
+.buttons {
+  margin: 20px 0;
+}
+
+.buttons button {
+  margin: 0 10px;
+  padding: 10px 20px;
+  font-size: 1em;
+  cursor: pointer;
+}
