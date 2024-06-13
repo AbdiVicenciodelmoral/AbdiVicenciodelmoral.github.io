@@ -36,6 +36,10 @@ function App(){
         <div className='intro'>
           <h1>Abdi Vicenciodelmoral</h1>
           <h2>Machine Learning Enthusiast</h2>
+          <div className='buttons'>
+            <button onClick={() => handleNavClick('profile')}>About Me</button>
+            <button onClick={() => handleNavClick('contact')}>Contact</button>
+          </div>
         </div>
       </section>
       <section id='profile' style={{display: activeSection === 'profile' ? 'block' : 'none'}}>
