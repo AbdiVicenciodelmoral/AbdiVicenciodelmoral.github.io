@@ -2,6 +2,7 @@
 import React, { useState } from 'react';
 import Navbar from './components/Navbar';
 import './App.css';
+import DailyQuestion from './components/DailyQuestion';
 
 function App(){
 
@@ -41,6 +42,7 @@ function App(){
             <button onClick={() => handleNavClick('contact')}>Contact</button>
           </div>
         </div>
+        <DailyQuestion/>
       </section>
       <section id='profile' style={{display: activeSection === 'profile' ? 'block' : 'none'}}>
         <h2>Profile</h2>

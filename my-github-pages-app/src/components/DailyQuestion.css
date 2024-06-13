@@ -1,0 +1,22 @@
+/* DailyQuestion.css */
+
+.daily-question {
+    margin: 40px 0;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .daily-question h2 {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+  }
+  
+  .daily-question ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .daily-question li {
+    margin: 10px 0;
+  }
