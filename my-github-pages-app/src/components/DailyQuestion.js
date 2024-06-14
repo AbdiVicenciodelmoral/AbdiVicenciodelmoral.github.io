@@ -14,8 +14,14 @@ const DailyQuestion = () => {
         once after the initial render, similar to componentDidMount in class components.
  */
   useEffect(()=> {
-    fetch('/ml_questions.csv')
-    .then(response => response.text())
+    fetch(`${process.env.PUBLIC_URL}/ml_questions.csv`)
+    .then(response => { 
+                        if (!response.ok) {
+                                    throw new Error('Network Response was not ok' + response.statusText);
+                        }
+                     
+                    return response.text();
+                    })
     .then(data => {
         const parsedData = Papa.parse(data, {header: true}).data;
         console.log(parsedData); // Debugging: Log parsed data
@@ -28,6 +34,9 @@ const DailyQuestion = () => {
         }
         
     })
+    .catch(error => {
+        console.error('There was a problem with the fetch operation',error);
+    });
   },[]);
 
   const handleClick = (answer) => {
