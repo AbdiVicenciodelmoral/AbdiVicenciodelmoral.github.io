@@ -1,11 +1,34 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
+import Papa from 'papaparse';
 import './DailyQuestion.css';
 
 const DailyQuestion = () => {
+  const [questions, setQuestions] = useState([]);
+  const [currentQuestion, setCurrentQuestion] = useState(null);
   const [selectedAnswer, setSelectedAnswer] = useState(null);
   const [answered, setAnswered] = useState(false);
 
-  const correctAnswer = 'B';
+  /*The useEffect hook is called with two arguments:
+        A function that contains the side effect code.
+        An empty dependency array ([]), which means this effect runs only 
+        once after the initial render, similar to componentDidMount in class components.
+ */
+  useEffect(()=> {
+    fetch('/ml_questions.csv')
+    .then(response => response.text())
+    .then(data => {
+        const parsedData = Papa.parse(data, {header: true}).data;
+        console.log(parsedData); // Debugging: Log parsed data
+        if (parsedData.length > 0){
+            setQuestions(parsedData);
+            setCurrentQuestion(parsedData[Math.floor(Math.random() * parsedData.length)]);
+        }
+        else{
+            console.log("No Data Uploaded.")
+        }
+        
+    })
+  },[]);
 
   const handleClick = (answer) => {
     if (!answered) {
@@ -16,47 +39,42 @@ const DailyQuestion = () => {
 
   const getAnswerClass = (answer) => {
     if (!answered) return '';
-    return answer === correctAnswer ? 'correct' : 'incorrect';
+    return answer === currentQuestion.correctAnswer ? 'correct' : 'incorrect';
   };
 
-  return (
-    <div className="daily-question">
-      <h2>Daily Machine Learning Question</h2>
-      <p>Question: What is overfitting in machine learning?</p>
-      <ul>
-        <li>
-          <button 
-            className={getAnswerClass('A')}
-            onClick={() => handleClick('A')}
-          >
-            A. When a model is too simple and performs poorly on training data.
-          </button>
-        </li>
-        <li>
-          <button 
-            className={getAnswerClass('B')}
-            onClick={() => handleClick('B')}
-          >
-            B. When a model performs well on training data but poorly on unseen data.
-          </button>
-        </li>
-        <li>
-          <button 
-            className={getAnswerClass('C')}
-            onClick={() => handleClick('C')}
-          >
-            C. When a model is too complex and performs well on unseen data.
-          </button>
-        </li>
-        <li>
-          <button 
-            className={getAnswerClass('D')}
-            onClick={() => handleClick('D')}
-          >
-            D. When a model is neither too simple nor too complex.
-          </button>
-        </li>
-      </ul>
+  const loadNewQuestion = () => {
+    setAnswered(false);
+    setSelectedAnswer(null);
+    setCurrentQuestion(questions[Math.floor(Math.random()*questions.length)]);
+  };
+
+  if(!currentQuestion) return <div>Loading Question...</div>
+  return(
+    <div className='daily-question'>
+        <h2>Machine Learning Question</h2>
+        <p>Question: {currentQuestion.question}</p>
+        <ul>
+            {['A','B','C','D'].map(option =>(
+                <li key={option}>
+                    <button
+                    className={getAnswerClass(option)}
+                    onClick={()=>handleClick(option)}
+                    >
+                    {option}.{currentQuestion[`answer${option}`]}
+                    </button>
+                </li>
+            ))
+
+            }
+        </ul>
+        {answered && (
+            <div>
+                {selectedAnswer === currentQuestion.correctAnswer ? (
+                    <p>Correct!</p>
+                ): <p>incorrect. The correct answer is {currentQuestion.correctAnswer}</p>}
+                <button onClick={loadNewQuestion}>Load New Question</button>
+            </div>
+        )}
     </div>
   );
 };

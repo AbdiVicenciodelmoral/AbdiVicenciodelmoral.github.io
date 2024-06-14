@@ -44,7 +44,8 @@
 }
 
 .intro h2 {
-  font-size: 1.5em;
+  font-size: 2.0em;
+  
   color: #666;
 }
 
@@ -57,4 +58,7 @@
   padding: 10px 20px;
   font-size: 1em;
   cursor: pointer;
+  border-radius: 5px;
+  background-color: #cd8bff;
+  border: none;
 }
