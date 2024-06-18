@@ -5,7 +5,7 @@ What is a hyperparameter in machine learning?,A parameter that is learned from t
 What is cross-validation?,A technique for assessing how the results of a statistical analysis will generalize to an independent dataset,A technique used to minimize the error of the training data,A method for reducing the number of features in a dataset,A method for scaling the data,A
 What is the purpose of regularization in machine learning?,To increase the complexity of the model,To prevent overfitting by adding a penalty for larger coefficients,To reduce the amount of training data needed,To improve the performance on training data,B
 What is a confusion matrix?,A table used to describe the performance of a classification model,A method for clustering data,A technique for reducing dimensionality,A method for scaling features,A
-What does the term "ensemble learning" refer to?,Using a single model for prediction,Combining predictions from multiple models to improve performance,Using unsupervised learning methods,Using deep learning algorithms,B
+"What does the term ""ensemble learning"" refer to?",Using a single model for prediction,Combining predictions from multiple models to improve performance,Using unsupervised learning methods,Using deep learning algorithms,B
 What is the bias-variance tradeoff?,The tradeoff between the accuracy of training data and testing data,The tradeoff between simplicity and complexity of the model,The tradeoff between bias error and variance error,The tradeoff between supervised and unsupervised learning,C
 What is the purpose of feature scaling?,To reduce the number of features in the dataset,To standardize the range of independent variables,To increase the model complexity,To improve the interpretability of the model,B
 What is a learning rate in the context of neural networks?,The rate at which the model forgets old data,The step size at each iteration while moving toward a minimum of a loss function,The rate at which new data is incorporated into the model,The size of the training dataset,B
@@ -14,18 +14,6 @@ What is the main goal of clustering in unsupervised learning?,To classify data i
 What is gradient descent?,An optimization algorithm used to minimize the loss function,An algorithm to increase the learning rate,An activation function for neural networks,An ensemble learning method,A
 What is a ROC curve?,A plot that illustrates the diagnostic ability of a binary classifier system,An error matrix,An algorithm for regression tasks,A method for scaling features,A
 What is the main advantage of using decision trees?,They require a large amount of data,They are prone to overfitting,They are easy to interpret and visualize,They can only be used for classification tasks,C
-What is 'transfer learning' in machine learning?,Training a model on one task and applying it to another,Combining multiple models to improve performance,Reducing the number of features in a dataset,Evaluating model performance using cross-validation,Optimizing model hyperparameters,A
-What is 'Dimensionality Reduction' used for?,Increasing the number of features,Reducing the number of data samples,Reducing the number of features,Handling missing data,Improving the accuracy of a model,C
-Which method is used to handle imbalanced datasets?,Cross-validation,Normalization,Random forest,SMOTE,Early stopping,D
-What is the 'learning rate' in gradient descent?,The number of iterations to run,The rate at which data is fed into the model,The step size for each iteration,The final error of the model,The initial weight of the model,C
-What is the purpose of a 'kernel trick' in SVM?,To linearize non-linear data,To handle missing data,To optimize the learning rate,To reduce overfitting,To perform dimensionality reduction,A
-What is 'dropout' in neural networks?,Adding noise to input data,An optimization algorithm,Ignoring randomly selected neurons during training,Preprocessing data,Evaluating model performance,C
-Which of the following is a feature selection method?,Normalization,Data Augmentation,Principal Component Analysis,Gradient Descent,Forward Selection,E
-What is 'R-squared' used to measure?,The correlation between two variables,The variance explained by the model,The accuracy of a classification model,The mean squared error,The bias of the model,B
-What is the main goal of reinforcement learning?,To cluster data points,To reduce dimensionality,To optimize cumulative reward,To classify data into categories,To predict continuous values,C
-What is the purpose of 'Grid Search' in machine learning?,Selecting the best features,Optimizing model parameters,Reducing data dimensionality,Evaluating model accuracy,Handling missing data,B
-What is 'Logistic Regression' primarily used for?,Regression analysis,Clustering analysis,Dimensionality reduction,Classification tasks,Data preprocessing,D
-What is 'AUC-ROC' used for?,Evaluating regression models,Handling missing data,Measuring classification performance,Normalizing data,Reducing overfitting,C
 What is the purpose of a validation set?,To train the model,To test the model's performance,To fine-tune the model's hyperparameters,To evaluate the model's performance during training,D
 Which of the following is an unsupervised learning algorithm?,Linear Regression,Decision Tree,Support Vector Machine,K-Means,D
 What does 'F1 Score' measure?,The weighted average of precision and recall,The ratio of true positives to total positives,The accuracy of a model,The area under the ROC curve,A
@@ -63,7 +51,7 @@ What is 'batch normalization' in neural networks?,A technique to initialize weig
 What is the role of an activation function in a neural network?,To introduce non-linearity into the model,To initialize the weights of the model,To optimize the model,To normalize the input data,A
 What is 'L1 regularization' also known as?,Ridge Regression,Lasso Regression,Elastic Net,Principal Component Analysis,B
 What does the term 'epoch' refer to in machine learning?,One complete cycle through the training dataset,One forward and backward pass in training,One batch of data processed by the model,One iteration of gradient descent,A
-What is the main difference between 'AdaBoost' and 'Gradient Boosting'?,AdaBoost combines weak learners sequentially; Gradient Boosting combines them in parallel,AdaBoost focuses on minimizing bias; Gradient Boosting focuses on minimizing variance,AdaBoost adjusts weights of misclassified examples; Gradient Boosting fits the residuals of the model,C
+What is the main difference between 'AdaBoost' and 'Gradient Boosting'?,AdaBoost combines weak learners sequentially; Gradient Boosting combines them in parallel,AdaBoost focuses on minimizing bias; Gradient Boosting focuses on minimizing variance,AdaBoost adjusts weights of misclassified examples; Gradient Boosting fits the residuals of the model,C,
 What is the purpose of 'feature scaling'?,To reduce the number of features,To handle missing data,To normalize the range of features,To remove irrelevant features,C
 Which technique is used to prevent overfitting in decision trees?,Feature scaling,Early stopping,Pruning,Cross-validation,C
 What is 'Q-learning' in reinforcement learning?,A supervised learning algorithm,An unsupervised learning algorithm,A model-free reinforcement learning algorithm,A model-based reinforcement learning algorithm,C
