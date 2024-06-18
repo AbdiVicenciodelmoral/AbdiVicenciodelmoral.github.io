@@ -51,7 +51,6 @@ What is 'batch normalization' in neural networks?,A technique to initialize weig
 What is the role of an activation function in a neural network?,To introduce non-linearity into the model,To initialize the weights of the model,To optimize the model,To normalize the input data,A
 What is 'L1 regularization' also known as?,Ridge Regression,Lasso Regression,Elastic Net,Principal Component Analysis,B
 What does the term 'epoch' refer to in machine learning?,One complete cycle through the training dataset,One forward and backward pass in training,One batch of data processed by the model,One iteration of gradient descent,A
-What is the main difference between 'AdaBoost' and 'Gradient Boosting'?,AdaBoost combines weak learners sequentially; Gradient Boosting combines them in parallel,AdaBoost focuses on minimizing bias; Gradient Boosting focuses on minimizing variance,AdaBoost adjusts weights of misclassified examples; Gradient Boosting fits the residuals of the model,C,
 What is the purpose of 'feature scaling'?,To reduce the number of features,To handle missing data,To normalize the range of features,To remove irrelevant features,C
 Which technique is used to prevent overfitting in decision trees?,Feature scaling,Early stopping,Pruning,Cross-validation,C
 What is 'Q-learning' in reinforcement learning?,A supervised learning algorithm,An unsupervised learning algorithm,A model-free reinforcement learning algorithm,A model-based reinforcement learning algorithm,C
