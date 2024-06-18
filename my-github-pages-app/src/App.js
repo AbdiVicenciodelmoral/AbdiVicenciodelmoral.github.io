@@ -64,7 +64,7 @@ function App(){
       </section>
 
       <div className='footer'>
-            <p>&copy 2024 Abdi Vicenciodelmoral</p>
+            <p>@ 2024 Abdi Vicenciodelmoral</p>
       </div>
     </div>
   );
