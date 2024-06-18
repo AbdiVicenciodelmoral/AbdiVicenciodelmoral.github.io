@@ -32,6 +32,7 @@ function App(){
     <div className="App">
       <Navbar onNavClick={handleNavClick} />
       <section id='home' style={{ display: activeSection === 'home' ? 'block' : 'none' }}>
+        <div className={activeSection === 'home' ? 'intro-background' : ''}>
         <h2>Home</h2>
         <p>Exploring the intersection of data and innovation through machine learning projects.</p>
         <div className='intro'>
@@ -40,6 +41,7 @@ function App(){
           <div className='buttons'>
             <button onClick={() => handleNavClick('profile')}>About Me</button>
             <button onClick={() => handleNavClick('contact')}>Contact</button>
+          </div>
           </div>
         </div>
         <DailyQuestion/>
@@ -61,7 +63,9 @@ function App(){
         <p>This section contains contact information, email, LinkedIn Profile, etc...</p>
       </section>
 
-
+      <div className='footer'>
+            <p>&copy 2024 Abdi Vicenciodelmoral</p>
+      </div>
     </div>
   );
 }

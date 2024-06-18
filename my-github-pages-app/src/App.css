@@ -33,20 +33,26 @@
 }
 
 
+
+
+
 /* For the intro on the Home Tab*/
 .intro {
+  /*background: url('./home_background.png') no-repeat center center fixed;
+  background-size: cover;*/
   text-align: center;
   margin: 20px 0;
+  color: white;
 }
 
 .intro h1 {
   font-size: 2.5em;
+  color: white;
 }
 
 .intro h2 {
   font-size: 2.0em;
-  
-  color: #666;
+  color: white;
 }
 
 .buttons {
@@ -61,4 +67,14 @@
   border-radius: 5px;
   background-color: #cd8bff;
   border: none;
+}
+
+
+/* Home Background image */
+.intro-background {
+  background: url('./home_background_2.png') no-repeat center center;
+  background-size: cover;
+  padding: 20px;
+  width: 100%;
+  color: white;
 }

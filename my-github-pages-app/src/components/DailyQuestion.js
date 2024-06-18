@@ -7,6 +7,7 @@ const DailyQuestion = () => {
   const [currentQuestion, setCurrentQuestion] = useState(null);
   const [selectedAnswer, setSelectedAnswer] = useState(null);
   const [answered, setAnswered] = useState(false);
+  const [askedQuestions, setAskedQuestions] = useState([]);
 
   /*The useEffect hook is called with two arguments:
         A function that contains the side effect code.
@@ -51,13 +52,40 @@ const DailyQuestion = () => {
     return answer === currentQuestion.correctAnswer ? 'correct' : 'incorrect';
   };
 
-  const loadNewQuestion = () => {
+  const loadNewQuestion = (questionList = questions, askedList = askedQuestions) => {
+    if (askedList.length >= questionList.length){
+        console.log("Study Session Completed!");
+        return;
+    }
+    let newIndex;
+    do {
+        console.log('Get questionList length:',questionList.length);
+        console.log("Getting New Index");
+        
+        newIndex = Math.floor(Math.random() * questionList.length);
+        console.log('New index =',newIndex);
+        
+    } while (askedList.includes(newIndex));
+
+    
+    setCurrentQuestion(questionList[newIndex]);
+    
+    setAskedQuestions([...askedList,newIndex]);
     setAnswered(false);
     setSelectedAnswer(null);
-    setCurrentQuestion(questions[Math.floor(Math.random()*questions.length)]);
+     console.log('New Index:', newIndex);
+     console.log('Question list length',questionList.length);
+    console.log('New question loaded:', questionList[newIndex]);
+    console.log('Updated asked questions:', [...askedList, newIndex]);
+
+    console.log(currentQuestion);
   };
 
-  if(!currentQuestion) return <div>Loading Question...</div>
+  if(!currentQuestion){ 
+    console.log("Can't find current question")
+    console.log(currentQuestion);
+    return <div>Loading Question...</div>}
+  
   return(
     <div className='daily-question'>
         <h2>Machine Learning Question</h2>
@@ -80,11 +108,12 @@ const DailyQuestion = () => {
             <div>
                 {selectedAnswer === currentQuestion.correctAnswer ? (
                     <p>Correct!</p>
-                ): <p>incorrect. The correct answer is {currentQuestion.correctAnswer}</p>}
-                <button onClick={loadNewQuestion}>Load New Question</button>
+                ): <p>Incorrect. The correct answer is {currentQuestion.correctAnswer}</p>}
+                <button onClick={() => loadNewQuestion()}>Load New Question</button>
             </div>
         )}
     </div>
+    
   );
 };
 
