@@ -1,4 +1,10 @@
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 .App {
   text-align: center;
 }
@@ -13,6 +19,8 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: black;
+  width: 100%;
+  box-sizing: border-box;
 }
 
 

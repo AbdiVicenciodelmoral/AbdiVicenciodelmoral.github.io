@@ -7,10 +7,9 @@
   background-color: #1a1a1a;
   color: #fff;
   width: 100%;
-  position: fixed;
-  top: 0;
-  left: 0;
-  z-index: 1000;
+  box-sizing: border-box;
+  margin: 0;
+  box-sizing: border-box;
 }
 
 /*Controls the styling of the heading (<h1>) in the navigation bar.*/
