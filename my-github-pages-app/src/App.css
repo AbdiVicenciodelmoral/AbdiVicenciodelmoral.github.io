@@ -138,6 +138,8 @@
 }
 
 
+
+/* Skills Section*/
 .skills{
   max-width: 600px;
   margin: 20px auto;
@@ -192,4 +194,84 @@
 .subheaders{
   font-weight: bold;
 }
+
+
+/* Education */
+/* Skills Section*/
+.education{
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  border-left: 4px  solid #cd8bff;
+}
+
+.education h1{
+  text-align: left;
+  color: #9452c6;
+  font-size: 2.0em;
+}
+
+.degree {
+  text-align: left;
+}
+
+.degree h1 {
+  text-align: left;
+  color: black;
+  font-size: 1.5em;
+}
+
+
+
+.degree ul{
+  padding-left: 20px;
+}
+
+.ms-courses p {
+  font-weight: bold;
+}
+.ms-courses ul{
+  list-style: none;
+  padding: 0;
+}
+
+.ms-courses ul li {
+  display: inline; /* Display list items in a single line */
+  margin-right: 10px; /* Space between items */
+  position: relative; /* Position for pseudo-element */
+}
+
+.ms-courses ul li::after {
+  content: '•'; /* Bullet point */
+  margin-left: 10px; /* Space after bullet */
+}
+
+.ms-courses ul li:last-child::after {
+  content: ''; /* Remove bullet after the last item */
+}
+
+
+.bs-courses p {
+  font-weight: bold;
+}
+.bs-courses ul{
+  list-style: none;
+  padding: 0;
+}
+
+.bs-courses ul li {
+  display: inline; /* Display list items in a single line */
+  margin-right: 10px; /* Space between items */
+  position: relative; /* Position for pseudo-element */
+}
+
+.bs-courses ul li::after {
+  content: '•'; /* Bullet point */
+  margin-left: 10px; /* Space after bullet */
+}
+
+.bs-courses ul li:last-child::after {
+  content: ''; /* Remove bullet after the last item */
+}
+
 

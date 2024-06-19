@@ -166,26 +166,82 @@ function App(){
         </div>
 
         <div className='education'>
-
+          <h1>Education</h1>
           <div className='degree'>
-            <h1> Master’s in Computer Science</h1>
+            <h1>Master’s in Computer Science</h1>
             <h2>Washington State University</h2>
-            
+            <ul>
+              <li>Master’s Thesis: "An End-To-End Learning Framework for Supporting Green Neuromorphic Computing: 
+                From RRAM Design and Microfabrication to Applications" Washington State University. Advisor: Dr. Xinghui Zhao.</li>
+              <li>Applied both machine learning and neural network models to predict the resistive switching behavior in Honey-based RRAM devices.</li>
+              <li>Developed an application that simulates the basic operations of RRAM devices in image classification tasks.</li>
+              <li>Investigated the robustness of in situ vs. ex situ training methods in the context of weight tolerance.</li>
+          </ul>
+
+            <div className='ms-courses'>
+            <p>Relevant Courses</p>
+              <ul>
+                <li>Advanced Analysis of Algorithms</li>
+                <li>Computer Graphics</li>
+                <li>Wireless Sensor Networks</li>
+                <li>File and Storage Systems</li>
+                <li>Machine Learning</li>
+                <li>Advanced Databases</li>
+                <li>Neural Network Design & Applications</li>
+                <li>Masters Research</li>
+              </ul>
+            </div>
+
           </div>
           
+
           <div className='degree'>
+          <h1>Bachelor’s in Computer Science</h1>
+            <h2>Washington State University</h2>
+            <div className='bs-courses'>
+            <p>Computer Science Major Courses</p>
+              <ul>
+                <li>Program Design and Development</li>
+                <li>Data Structures</li>
+                <li>Discrete Mathematics</li>
+                <li>Advanced Data Structures</li>
+                <li>Programming Tools</li>
+                <li>Computer Organization</li>
+                <li>C & Assembly Language Program</li>
+                <li>Automata and Formal Languages</li>
+                <li>Fundamentals of Software Engineering</li>
+                <li>Numerical Computing</li>
+                <li>Introduction to Database Systems</li>
+                <li>Programming Language Design</li>
+                <li>Systems Programming</li>
+                <li>Social & Professional Issues in Computing</li>
+                <li>Software Design Project I</li>
+                <li>Software Design Project II</li>
+                <li>Digital Forensics</li>
+                <li>Applied Systems Security</li>
+                <li>Artificial Intelligence</li>
+                <li>Design & Analysis of Algorithms</li>
+                <li>Operating Systems</li>
+                <li>Machine Learning</li>
+              </ul>
+            </div>
 
+
+            <div className='bs-courses'>
+            <p>Computer Science Minor Courses</p>
+              <ul>
+              <li>MATH 108 Trigonometry</li>
+              <li>MATH 171 Calculus I</li>
+              <li>MATH 172 Calculus II</li>
+              <li>MATH 220 Introductory Linear Algebra</li>
+              <li>MATH 273 Calculus III</li>
+              <li>MATH 315 Differential Equations</li>
+              <li>MATH 364 Principles of Optimization</li>
+              <li>STAT 360 Probability and Statistics</li>
+              </ul>
+            </div>
           </div>
-
-          
-
-
-
         </div>
-
-
-      
-      
       </section>
 
 
