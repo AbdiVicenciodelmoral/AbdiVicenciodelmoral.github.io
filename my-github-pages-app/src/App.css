@@ -50,7 +50,6 @@
   background-size: cover;*/
   text-align: center;
   margin: 20px 0;
-  color: white;
 }
 
 .intro h1 {
@@ -60,8 +59,10 @@
 
 .intro h2 {
   font-size: 2.0em;
-  color: white;
+  color: rgb(180, 180, 180) !important; /* Ensure the color is set to black */
 }
+
+
 
 .about-me-buttons {
   margin: 20px 0;
@@ -123,13 +124,72 @@
   max-width: 600px;
   margin: 20px auto;
   padding: 20px;
-  border-left: 4px  solid #000;
+  border-left: 4px  solid #cd8bff;
 
 }
 
 .about-me h2{
   text-align: left;
+  color: #9452c6;
+  font-size: 2.0em;
 }
 .about-me p{
   text-align: left;
 }
+
+
+.skills{
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  border-left: 4px  solid #cd8bff;
+}
+
+.skills h2{
+  text-align: left;
+  color: #9452c6;
+  font-size: 2.0em;
+}
+
+
+.skill-type1{
+  text-align: left;
+}
+
+
+
+.skill-type1 ul{
+  list-style: none;
+  padding: 0;
+}
+
+.skill-type1 ul li {
+  display: inline; /* Display list items in a single line */
+  margin-right: 10px; /* Space between items */
+  position: relative; /* Position for pseudo-element */
+}
+
+.skill-type1 ul li::after {
+  content: '•'; /* Bullet point */
+  margin-left: 10px; /* Space after bullet */
+}
+
+.skill-type1 ul li:last-child::after {
+  content: ''; /* Remove bullet after the last item */
+}
+
+
+.skill-type2{
+  text-align: left;
+}
+
+
+
+.skill-type2 ul{
+  padding-left: 20px;
+}
+
+.subheaders{
+  font-weight: bold;
+}
+
