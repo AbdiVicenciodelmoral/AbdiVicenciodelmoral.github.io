@@ -162,6 +162,25 @@ function App(){
               <li>Network Graphs</li>
             </ul>
           </div>
+
+        </div>
+
+        <div className='education'>
+
+          <div className='degree'>
+            <h1> Master’s in Computer Science</h1>
+            <h2>Washington State University</h2>
+            
+          </div>
+          
+          <div className='degree'>
+
+          </div>
+
+          
+
+
+
         </div>
 
 
