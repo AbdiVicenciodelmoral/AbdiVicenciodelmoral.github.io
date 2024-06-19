@@ -38,7 +38,7 @@ function App(){
         <div className='intro'>
           <h1>Abdi Vicenciodelmoral</h1>
           <h2>Machine Learning Enthusiast</h2>
-          <div className='buttons'>
+          <div className='about-me-buttons'>
             <button onClick={() => handleNavClick('profile')}>About Me</button>
             <button onClick={() => handleNavClick('contact')}>Contact</button>
           </div>
@@ -46,10 +46,37 @@ function App(){
         </div>
         <DailyQuestion/>
       </section>
+      
+   
       <section id='profile' style={{display: activeSection === 'profile' ? 'block' : 'none'}}>
-        <h2>Profile</h2>
-        <p>This section showcases my skills, knowledge, and experience</p>
+        <header className='profile-header'>
+          <h1>Abdi Vicenciodelmoral</h1>
+          <p className='tagline'> Machine Learning Engineer | Data Scientist | Software Engineer</p>
+        </header>
+        <div className='about-me'>
+        <h2> About Me </h2>
+        <p>
+        I hold a Master’s degree in Computer Science from Washington State University, 
+        with a focus on machine learning, data analysis, and software engineering. I 
+        am proficient in programming languages including Python, Java, JavaScript, R, 
+        C, and SQL, and experienced with machine learning frameworks such as TensorFlow, 
+        Keras, and PyTorch. My skills in natural language processing, computer vision, 
+        and data analysis are supported by my use of tools like Matplotlib, Seaborn, Pandas, 
+        and NumPy. My master’s thesis on "An End-To-End Learning Framework for Supporting 
+        Green Neuromorphic Computing" and contributions to various research publications highlight 
+        my technical expertise and innovative problem-solving abilities. Professionally, I have 
+        demonstrated technical and leadership capabilities through roles such as a Teaching Assistant 
+        at Washington State University, where I facilitated learning in programming and data structures. 
+        My diverse experiences have prepared me to contribute effectively to software engineering, data 
+        analysis, and machine learning projects.
+        
+        </p>
+        </div>
+      
+      
       </section>
+
+
       <section id='projects' style={{display: activeSection === 'projects' ? 'block' : 'none'}}>
         <h2>Projects</h2>
         <p>This section contains a collections of projects</p>

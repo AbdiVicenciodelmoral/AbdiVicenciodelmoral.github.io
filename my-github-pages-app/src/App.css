@@ -1,7 +1,7 @@
+
 .App {
   text-align: center;
 }
-
 
 
 .App-header {
@@ -55,11 +55,11 @@
   color: white;
 }
 
-.buttons {
+.about-me-buttons {
   margin: 20px 0;
 }
 
-.buttons button {
+.about-me-buttons button {
   margin: 0 10px;
   padding: 10px 20px;
   font-size: 1em;
@@ -67,6 +67,7 @@
   border-radius: 5px;
   background-color: #cd8bff;
   border: none;
+  color:#000;
 }
 
 
@@ -86,4 +87,41 @@
 .intro-background p{
   color: white;
   font-size: 1.0em;
+}
+
+
+/* Profile*/
+
+.profile-container {
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.profile-header {
+  text-align: center;
+}
+
+.profile-header h1 {
+  font-size: 2.5em;
+}
+
+.tagline{
+  color: gray;
+  font-size: 1.5em;
+}
+
+.about-me {
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  border-left: 4px  solid #000;
+
+}
+
+.about-me h2{
+  text-align: left;
+}
+.about-me p{
+  text-align: left;
 }
