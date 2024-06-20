@@ -241,7 +241,7 @@ function App(){
         <h1>Research Hub</h1>
         <p className='tagline'>Research Papers, Guides, and Resources on Machine Learning</p>
         <div className='featured-resource'>
-          <h2>Featured Resource</h2>
+          <h2>Featured Research Paper</h2>
           <div className='resource-item'>
             <iframe 
                 src='Machine-learning-in-orthopaedic-surgery.pdf#page=1' 
