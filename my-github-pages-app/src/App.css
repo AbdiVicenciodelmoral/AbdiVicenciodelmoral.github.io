@@ -275,8 +275,7 @@
 }
 
 
-/* Research Hub*/
-
+/* Research Hub */
 .tagline {
   font-size: 1.2em; /* Adjust the font size as needed */
   color: gray; /* Use your theme color or any desired color */
@@ -288,7 +287,7 @@
   text-align: center;
 }
 
-.featured-resource h2{
+.featured-resource h2 {
   color: #9452c6;
 }
 
@@ -364,6 +363,7 @@
 
   .resource-iframe {
     width: 100%;
-    height: 250px;
+    height: auto;
+    min-height: 250px; /* Ensuring it has a minimum height */
   }
 }
