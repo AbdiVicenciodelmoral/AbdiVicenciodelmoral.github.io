@@ -31,6 +31,7 @@ function App(){
   return (
     <div className="App">
       <Navbar onNavClick={handleNavClick} />
+      
       <section id='home' style={{ display: activeSection === 'home' ? 'block' : 'none' }}>
         <div className={activeSection === 'home' ? 'intro-background' : ''}>
         <h2>Home</h2>
@@ -47,7 +48,6 @@ function App(){
         <DailyQuestion/>
       </section>
       
-   
       <section id='profile' style={{display: activeSection === 'profile' ? 'block' : 'none'}}>
         <header className='profile-header'>
           <h1>Abdi Vicenciodelmoral</h1>
@@ -69,13 +69,10 @@ function App(){
         at Washington State University, where I facilitated learning in programming and data structures. 
         My diverse experiences have prepared me to contribute effectively to software engineering, data 
         analysis, and machine learning projects.
-        
         </p>
         </div>
-
         <div className='skills'>
           <h2>Skills</h2>
-
           <div className='skill-type1'>
             <h3>Programming Languages</h3>
             <ul>
@@ -88,7 +85,6 @@ function App(){
               <li>HTML/CSS</li>
             </ul>
           </div>
-
           <div className='skill-type2'>
           <h3>Algorithms and Statistical Methods</h3>
             <ul className='Algorithms'>
@@ -111,7 +107,6 @@ function App(){
               <li>Version Control: Github, Azure.</li>
             </ul>
           </div>
-
           <div className='skill-type1'>
             <h3>Machine Learning Frameworks</h3>
             <ul>
@@ -125,7 +120,6 @@ function App(){
               <li>OpenCV</li>
             </ul>
           </div>
-
           <div className='skill-type1'>
             <h3>Data Analysis & Visualization</h3>
             <ul>
@@ -162,9 +156,7 @@ function App(){
               <li>Network Graphs</li>
             </ul>
           </div>
-
         </div>
-
         <div className='education'>
           <h1>Education</h1>
           <div className='degree'>
@@ -177,7 +169,6 @@ function App(){
               <li>Developed an application that simulates the basic operations of RRAM devices in image classification tasks.</li>
               <li>Investigated the robustness of in situ vs. ex situ training methods in the context of weight tolerance.</li>
           </ul>
-
             <div className='ms-courses'>
             <p>Relevant Courses</p>
               <ul>
@@ -191,10 +182,7 @@ function App(){
                 <li>Masters Research</li>
               </ul>
             </div>
-
           </div>
-          
-
           <div className='degree'>
           <h1>Bachelor’s in Computer Science</h1>
             <h2>Washington State University</h2>
@@ -225,8 +213,6 @@ function App(){
                 <li>Machine Learning</li>
               </ul>
             </div>
-
-
             <div className='bs-courses'>
             <p>Computer Science Minor Courses</p>
               <ul>
@@ -249,10 +235,72 @@ function App(){
         <h2>Projects</h2>
         <p>This section contains a collections of projects</p>
       </section>
+
+  
       <section id='research-hub' style={{ display: activeSection === 'research-hub' ? 'block' : 'none' }}>
-        <h2>Research Hub</h2>
-        <p>This section contains research papers, guides, and other resources related to machine learning.</p>
+        <h1>Research Hub</h1>
+        <p className='tagline'>Research Papers, Guides, and Resources on Machine Learning</p>
+        <div className='featured-resource'>
+          <h2>Featured Resource</h2>
+          <div className='resource-item'>
+            <iframe 
+                src='Machine-learning-in-orthopaedic-surgery.pdf#page=1' 
+                className='resource-iframe' 
+                title='Featured Research Paper'
+            />
+            <div className='resource-content'>
+            <h3>Machine learning in orthopaedic surgery</h3>
+            <p><strong>Authors:</strong> Simon P Lalehzarian, Anirudh K Gowd, Joseph N Liu</p>
+            <p><strong>Date Published:</strong> 2021 September 18</p>
+            <p><strong>Abstract:</strong> Artificial intelligence and machine learning in orthopaedic surgery has gained
+                                          mass interest over the last decade or so. In prior studies, researchers have
+                                          demonstrated that machine learning in orthopaedics can be used for different
+                                          applications such as fracture detection, bone tumor diagnosis, detecting hip
+                                          implant mechanical loosening, and grading osteoarthritis. As time goes on, the
+                                          utility of artificial intelligence and machine learning algorithms, such as deep
+                                          learning, continues to grow and expand in orthopaedic surgery. The purpose of
+                                          this review is to provide an understanding of the concepts of machine learning
+                                          and a background of current and future orthopaedic applications of machine
+                                          learning in risk assessment, outcomes assessment, imaging, and basic science
+                                          fields. In most cases, machine learning has proven to be just as effective, if not
+                                          more effective, than prior methods such as logistic regression in assessment and
+                                          prediction. With the help of deep learning algorithms, such as artificial neural
+                                          networks and convolutional neural networks, artificial intelligence in
+                                          orthopaedics has been able to improve diagnostic accuracy and speed, flag the
+                                          most critical and urgent patients for immediate attention, reduce the amount of
+                                          human error, reduce the strain on medical professionals, and improve care.
+                                          Because machine learning has shown diagnostic and prognostic uses in
+                                          orthopaedic surgery, physicians should continue to research these techniques and
+                                          be trained to use these methods effectively in order to improve orthopaedic
+                                          treatment.
+                                          </p>
+            <p><strong>Review:</strong>My Review</p>
+            <a href='link-to-publication' target='_blank' rel='noopener noreferrer'>Read the full paper</a>
+            </div>
+          </div>
+        </div>
+
+        <div className='resource-guides'>
+          <h3>Guides and Cheat Sheets</h3>
+          <ul>
+            <li>
+            <iframe 
+                src='Evaluation_Metrics_for_Classification_Tasks_in_Machine_Learning.pdf#page=1' 
+                className='resource-iframe' 
+                title='Featured Research Paper'
+            />
+              <h4>Evaluation Metrics for Classification Tasks in Machine Learning</h4>
+              <p>A brief overview of Accuracy, Error Rate, Precsion, Recall, F1
+              Score, Specificity, ROC, and AUC</p>
+              <a href='/Evaluation_Metrics_for_Classification_Tasks_in_Machine_Learning.pdf' download>Download PDF</a>
+            </li>
+          </ul>
+        </div>
+        
       </section>
+      
+      
+      
       <section id='contact' style={{ display: activeSection === 'contact' ? 'block' : 'none' }}>
         <h2>Contact</h2>
         <p>This section contains contact information, email, LinkedIn Profile, etc...</p>

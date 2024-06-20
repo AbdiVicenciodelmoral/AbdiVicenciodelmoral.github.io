@@ -275,3 +275,95 @@
 }
 
 
+/* Research Hub*/
+
+.tagline {
+  font-size: 1.2em; /* Adjust the font size as needed */
+  color: gray; /* Use your theme color or any desired color */
+  margin-top: 10px; /* Optional: Adjust the top margin for spacing */
+}
+
+.featured-resource, .guides {
+  margin-top: 40px;
+  text-align: center;
+}
+
+.featured-resource h2{
+  color: #9452c6;
+}
+
+.resource-item, .guide-item {
+  background: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.resource-iframe {
+  width: 90%;
+  max-width: 600px;
+  height: 300px;
+  border: none;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.resource-content {
+  text-align: center;
+  width: 100%;
+}
+
+.resource-item h3, .guide-item h3 {
+  margin-top: 0;
+}
+
+.resource-item p, .guide-item p {
+  margin: 10px 0;
+}
+
+.resource-item a, .guide-item a {
+  color: #9452c6;
+  text-decoration: none;
+  display: inline-block;
+  margin-top: 10px;
+}
+
+.resource-item a:hover, .guide-item a:hover {
+  text-decoration: underline;
+}
+
+.footer {
+  text-align: center;
+  padding: 20px;
+  background: #333;
+  color: white;
+}
+
+@media (max-width: 600px) {
+  .section {
+    padding: 20px 10px;
+    margin: 10px auto;
+  }
+
+  .intro-background {
+    padding: 30px 10px;
+  }
+
+  .about-me-buttons {
+    flex-direction: column;
+  }
+
+  .about-me-buttons button {
+    margin: 10px 0;
+  }
+
+  .resource-iframe {
+    width: 100%;
+    height: 250px;
+  }
+}
