@@ -281,20 +281,18 @@ function App(){
         </div>
 
         <div className='resource-guides'>
-          <h3>Guides and Cheat Sheets</h3>
-          <ul>
-            <li>
-            <iframe 
-                src='Evaluation_Metrics_for_Classification_Tasks_in_Machine_Learning.pdf#page=1' 
-                className='resource-iframe' 
-                title='Featured Research Paper'
-            />
-              <h4>Evaluation Metrics for Classification Tasks in Machine Learning</h4>
-              <p>A brief overview of Accuracy, Error Rate, Precsion, Recall, F1
-              Score, Specificity, ROC, and AUC</p>
-              <a href='/Evaluation_Metrics_for_Classification_Tasks_in_Machine_Learning.pdf' download>Download PDF</a>
-            </li>
-          </ul>
+          <h2>Guides and Cheat Sheets</h2>
+          <div className='guide-item'>
+              <iframe 
+                  src='Evaluation_Metrics_for_Classification_Tasks_in_Machine_Learning.pdf#page=1' 
+                  className='resource-iframe' 
+                  title='Featured Research Paper'
+              />
+                <h4>Evaluation Metrics for Classification Tasks in Machine Learning</h4>
+                <p>A brief overview of Accuracy, Error Rate, Precsion, Recall, F1
+                Score, Specificity, ROC, and AUC</p>
+                <a href='/Evaluation_Metrics_for_Classification_Tasks_in_Machine_Learning.pdf' download>Download PDF</a>
+          </div>
         </div>
         
       </section>

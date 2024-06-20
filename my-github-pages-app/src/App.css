@@ -279,37 +279,36 @@
 .tagline {
   font-size: 1.2em; /* Adjust the font size as needed */
   color: gray; /* Use your theme color or any desired color */
-  margin-top: 10px; /* Optional: Adjust the top margin for spacing */
+  margin-top: 20px; /* Increase top margin */
 }
 
 .featured-resource, .guides {
-  margin-top: 40px;
+  margin-top: 100px; /* Increase margin for spacing */
+  padding: 40px; /* Increase padding for more spacing */
   text-align: center;
 }
 
-.featured-resource h2 {
+.featured-resource h2, .resource-guides h2 {
   color: #9452c6;
 }
 
 .resource-item, .guide-item {
   background: #fff;
-  padding: 20px;
+  padding: 40px; /* Increase padding for more spacing */
   border-radius: 8px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  margin-bottom: 20px;
+  margin-bottom: 40px; /* Increase margin-bottom for more spacing */
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
 .resource-iframe {
-  width: 90%;
+  width: 100%;
   max-width: 600px;
   height: 300px;
   border: none;
-  margin-bottom: 20px;
+  margin-bottom: 40px; /* Increase margin-bottom for more spacing */
   border-radius: 8px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 .resource-content {
@@ -318,18 +317,18 @@
 }
 
 .resource-item h3, .guide-item h3 {
-  margin-top: 0;
+  margin-top: 20px; /* Increase top margin for spacing */
 }
 
 .resource-item p, .guide-item p {
-  margin: 10px 0;
+  margin: 20px 0; /* Increase top and bottom margin for spacing */
 }
 
 .resource-item a, .guide-item a {
   color: #9452c6;
   text-decoration: none;
   display: inline-block;
-  margin-top: 10px;
+  margin-top: 20px; /* Increase top margin for spacing */
 }
 
 .resource-item a:hover, .guide-item a:hover {
