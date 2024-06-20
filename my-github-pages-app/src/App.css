@@ -366,7 +366,7 @@
 
   .featured-resource, .resource-guides {
     max-width: 100%; /* Make it full width on phones */
-    padding: 20px; /* Reduce padding for phones */
+    padding: 10px; /* Reduce padding for phones */
   }
 
   .resource-iframe {
