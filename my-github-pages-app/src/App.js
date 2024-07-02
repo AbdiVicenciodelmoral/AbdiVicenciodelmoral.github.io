@@ -31,7 +31,7 @@ function App(){
   return (
     <div className="App">
       <Navbar onNavClick={handleNavClick} />
-      
+      <div className='content'>
       <section id='home' style={{ display: activeSection === 'home' ? 'block' : 'none' }}>
         <div className={activeSection === 'home' ? 'intro-background' : ''}>
         <h2>Home</h2>
@@ -228,12 +228,170 @@ function App(){
             </div>
           </div>
         </div>
+
+        <div className='publications'>
+          <h1>Publications</h1>
+          <div className='paper'>
+            <p>
+              <strong>A. Y. Vicenciodelmoral, M. M. Hasan Tanim, F. Zhao and X. Zhao,</strong>
+              <span style={{ fontStyle: 'italic', fontSize: '1.1em' }}>
+                "A Machine Learning Approach to Support Neuromorphic Device Design and Microfabrication,"
+              </span>
+              <em> 2023 International Conference on Machine Learning and Applications (ICMLA),</em> 
+              Jacksonville, FL, USA, 2023, pp. 1627-1634, doi:
+              <a href="https://doi.org/10.1109/ICMLA58977.2023.00246">10.1109/ICMLA58977.2023.00246</a>.
+            </p>
+          </div>
+
+          
+          <div className='paper'>
+              <p>
+                <strong>Vicenciodelmoral, A. Y. (2023).</strong>
+                <span style={{ fontStyle: 'italic', fontSize: '1.1em' }}>
+                  "An end-to-end learning framework for supporting green neuromorphic computing: From RRAM design and microfabrication to applications"
+                </span>
+                <em> (Order No. 30631228).</em> 
+                Available from Dissertations & Theses @ Washington State University WCLP; ProQuest Dissertations & Theses A&I. (2934276559). Retrieved from
+                <a href="https://www.proquest.com/dissertations-theses/end-learning-framework-supporting-green/docview/2934276559/se-2">
+                  https://www.proquest.com/dissertations-theses/end-learning-framework-supporting-green/docview/2934276559/se-2
+                </a>.
+              </p>
+          </div>
+
+
+          <div className='paper'>
+            <p>
+              <strong>M. M. Hasan Tanim, A. Yamil Vicenciodelmoral, Z. Templin, X. Zhao and F. Zhao,</strong>
+              <span style={{ fontStyle: 'italic', fontSize: '1.1em' }}>
+                "Honey-CNT based Resistive Switching Device for Neuromorphic Computing Applications,"
+              </span>
+              <em>2022 IEEE/ACM International Conference on Big Data Computing, Applications and Technologies (BDCAT),</em>
+              Vancouver, WA, USA, 2022, pp. 182-183, doi:
+              <a href="https://doi.org/10.1109/BDCAT56447.2022.00034">10.1109/BDCAT56447.2022.00034</a>.
+            </p>
+          </div>
+
+          <div className='paper'>
+            <p>
+              <strong>A. Y. Vicenciodelmoral, M. M. H. Tanim, F. Zhao and X. Zhao,</strong>
+              <span style={{ fontStyle: 'italic', fontSize: '1.1em' }}>
+                "Supporting Green Neuromorphic Computing: Machine Learning Guided Microfabrication for Resistive Random Access Memory,"
+              </span>
+              <em>2022 IEEE/ACM International Conference on Big Data Computing, Applications and Technologies (BDCAT),</em>
+              Vancouver, WA, USA, 2022, pp. 154-157, doi:
+              <a href="https://doi.org/10.1109/BDCAT56447.2022.00026">10.1109/BDCAT56447.2022.00026</a>.
+            </p>
+          </div>
+
+          <div className='paper'>
+            <p>
+              <strong>Brandon Sueoka, Abdi Yamil Vicenciodelmoral, Md Mehedi Hasan Tanim, Xinghui Zhao, Feng Zhao,</strong>
+              <span style={{ fontStyle: 'italic', fontSize: '1.1em' }}>
+                "Correlation of natural honey-based RRAM processing and switching properties by experimental study and machine learning,"
+              </span>
+              <em>Solid-State Electronics,</em>
+              Volume 197, 2022, 108463, ISSN 0038-1101,
+              <a href="https://doi.org/10.1016/j.sse.2022.108463">https://doi.org/10.1016/j.sse.2022.108463</a>.
+              (<a href="https://www.sciencedirect.com/science/article/pii/S0038110122002349">https://www.sciencedirect.com/science/article/pii/S0038110122002349</a>)
+            </p>
+          </div>
+
+
+          <div className='paper' style={{ fontFamily: 'Arial, sans-serif', marginBottom: '20px' }}>
+            <p>
+              <strong>Sonam Sherpa, Abdi Vicenciodelmoral, and Xinghui Zhao.</strong>
+              <span style={{ fontStyle: 'italic', fontSize: '1.1em' }}>
+                "Deadlock Detection for Concurrent Programs Using Resource Footprints."
+              </span>
+              <em>In Proceedings of the 12th IEEE/ACM International Conference on Utility and Cloud Computing Companion (UCC '19 Companion).</em>
+              Association for Computing Machinery, New York, NY, USA, 137–138. 
+              <a href="https://doi.org/10.1145/3368235.3369370">https://doi.org/10.1145/3368235.3369370</a>.
+            </p>
+          </div>
+
+
+        </div>
+
       </section>
 
 
       <section id='projects' style={{display: activeSection === 'projects' ? 'block' : 'none'}}>
-        <h2>Projects</h2>
+        <h1>Projects</h1>
         <p>This section contains a collections of projects</p>
+
+        <div className='project-source'>
+          <h2>ML_Driven_RRAM-_Evaluation</h2>
+          <p>RRAM resistive switching behavior evaluation and prediction, based on fabrication conditions. 
+            Applied Machine learning\Deep learning models to predict SET voltage distribution in Honey-based 
+            RRAM devices. Simulating the basic operations of RRAM crossbars in image classification tasks, 
+            investigating the robustness of in situ vs. ex situ training.
+
+            Applied both machine learning and deep learning models to predict SET voltage distribution in 
+            Honey-based RRAM devices, assessing the likelihood of observing specific voltage values based on 
+            fabrication conditions. Developed an application that simulates the basic operations of RRAM devices 
+            in image classification tasks; used ex situ offline training methods and mapped neural network weights 
+            onto RRAM crossbars to evaluate their tolerance to weight noise and deviations. Investigated the robustness 
+            of in situ vs. ex situ training methods in the context of weight tolerance.</p>
+
+            <p><strong>Source: </strong><a href='https://github.com/AbdiVicenciodelmoral/ML_Driven_RRAM-_Evaluation'>github.com/AbdiVicenciodelmoral/ML_Driven_RRAM-_Evaluation</a></p>
+
+
+        </div>
+
+        <div className='project-source'>
+          <h2>Evaluation Metrics</h2>
+          <p>The project offers an overview of evaluation metrics for classification models, covering Accuracy, 
+            Error Rate, Precsion, Recall, F1 Score, Specificity, ROC, and AUC.</p>
+          <p><strong>Source: </strong><a href='https://github.com/AbdiVicenciodelmoral/Evaluation_Metrics'>github.com/AbdiVicenciodelmoral/Evaluation_Metrics</a></p>
+        </div>
+
+        <div className='project-source'>
+          <h2>linear regression</h2>
+          <p>Linear regression exercise and application in machine learning
+
+            Linear regression is a type of predictive analysis that concerns two-dimensional sample 
+            points with one independent variable and one dependent variable and determines a linear 
+            function that best fits the observed and, making it possible to predict the dependent variable 
+            values as a function of the independent variable.
+
+            Three models are created one using the Scikit-learn libraries, the OLS method, and Gradient Descent.
+
+            Ordinary least squares (OLS) is a statistical method of analysis that estimates the relationship between 
+            one or more independent variables and a dependent variable, in a linear regression model. It estimates 
+            the relationship by minimizing the sum of the squares in the difference between the observed and predicted 
+            values of the dependent variable configured as a straight line.
+
+            Gradient Descent is the process of minimizing a function by following the gradients of the cost function.</p>
+          
+          <p><strong>Source: </strong><a href='https://github.com/AbdiVicenciodelmoral/linear_regression'>github.com/AbdiVicenciodelmoral/linear_regression</a></p>
+        </div>
+
+        <div className='project-source'>
+          <h2>ML PredictiveAnalysis RRAM</h2>
+          <p>RRAM resistive switching behavior evaluation and prediction, based on fabrication conditions. 
+            Applied Machine learning\Deep learning models to predict SET voltage distribution in Honey-based RRAM devices.</p>
+          <p><strong>Source: </strong><a href='https://github.com/AbdiVicenciodelmoral/ML-PredictiveAnalysis-RRAM'>github.com/AbdiVicenciodelmoral/ML-PredictiveAnalysis-RRAM</a></p>
+        </div>
+
+
+        <div className='project-source'>
+          <h2>NPL to SQL</h2>
+          <p>This application converts natural language into SQL using Deep Learning. 
+            The SQL queries are then submitted to a database, to test accuracy. 
+            The database pertains to movie information using the IMDB dataset.</p>
+          <p><strong>Source: </strong><a href='https://github.com/AbdiVicenciodelmoral/NPL_To_SQL'>github.com/AbdiVicenciodelmoral/NPL_To_SQL</a></p>
+        </div>
+
+
+        <div className='project-source'>
+          <h2>Pattern Search Analysis</h2>
+          <p>This project is a comparative analysis a pattern search algorithms, to determine their efficiency.</p>
+          <p><strong>Source: </strong><a href='https://github.com/AbdiVicenciodelmoral/Pattern-Search-Analysis'>github.com/AbdiVicenciodelmoral/Pattern-Search-Analysis</a></p>
+        </div>
+
+
+
+
       </section>
 
   
@@ -241,7 +399,7 @@ function App(){
         <h1>Research Hub</h1>
         <p className='tagline'>Research Papers, Guides, and Resources on Machine Learning</p>
         <div className='featured-resource'>
-          <h2>Featured Research Paper</h2>
+          <h2>Curated Research Insights: Reading and Reviewing Papers by Various Authors</h2>
           <div className='resource-item'>
             <iframe 
                 src='Machine-learning-in-orthopaedic-surgery.pdf#page=1' 
@@ -249,33 +407,45 @@ function App(){
                 title='Featured Research Paper'
             />
             <div className='resource-content'>
-            <h3>Machine learning in orthopaedic surgery</h3>
-            <p><strong>Authors:</strong> Simon P Lalehzarian, Anirudh K Gowd, Joseph N Liu</p>
-            <p><strong>Date Published:</strong> 2021 September 18</p>
-            <p><strong>Abstract:</strong> Artificial intelligence and machine learning in orthopaedic surgery has gained
-                                          mass interest over the last decade or so. In prior studies, researchers have
-                                          demonstrated that machine learning in orthopaedics can be used for different
-                                          applications such as fracture detection, bone tumor diagnosis, detecting hip
-                                          implant mechanical loosening, and grading osteoarthritis. As time goes on, the
-                                          utility of artificial intelligence and machine learning algorithms, such as deep
-                                          learning, continues to grow and expand in orthopaedic surgery. The purpose of
-                                          this review is to provide an understanding of the concepts of machine learning
-                                          and a background of current and future orthopaedic applications of machine
-                                          learning in risk assessment, outcomes assessment, imaging, and basic science
-                                          fields. In most cases, machine learning has proven to be just as effective, if not
-                                          more effective, than prior methods such as logistic regression in assessment and
-                                          prediction. With the help of deep learning algorithms, such as artificial neural
-                                          networks and convolutional neural networks, artificial intelligence in
-                                          orthopaedics has been able to improve diagnostic accuracy and speed, flag the
-                                          most critical and urgent patients for immediate attention, reduce the amount of
-                                          human error, reduce the strain on medical professionals, and improve care.
-                                          Because machine learning has shown diagnostic and prognostic uses in
-                                          orthopaedic surgery, physicians should continue to research these techniques and
-                                          be trained to use these methods effectively in order to improve orthopaedic
-                                          treatment.
-                                          </p>
-            <p><strong>Review:</strong>My Review</p>
-            <a href='link-to-publication' target='_blank' rel='noopener noreferrer'>Read the full paper</a>
+              <h3>Machine learning in orthopaedic surgery</h3>
+              <p><strong>Authors:</strong> Simon P Lalehzarian, Anirudh K Gowd, Joseph N Liu</p>
+              <p><strong>Date Published:</strong> 2021 September 18</p>
+              <p><strong>Abstract:</strong> Artificial intelligence and machine learning in orthopaedic surgery has gained
+                                            mass interest over the last decade or so. In prior studies, researchers have
+                                            demonstrated that machine learning in orthopaedics can be used for different
+                                            applications such as fracture detection, bone tumor diagnosis, detecting hip
+                                            implant mechanical loosening, and grading osteoarthritis. As time goes on, the
+                                            utility of artificial intelligence and machine learning algorithms, such as deep
+                                            learning, continues to grow and expand in orthopaedic surgery. The purpose of
+                                            this review is to provide an understanding of the concepts of machine learning
+                                            and a background of current and future orthopaedic applications of machine
+                                            learning in risk assessment, outcomes assessment, imaging, and basic science
+                                            fields. In most cases, machine learning has proven to be just as effective, if not
+                                            more effective, than prior methods such as logistic regression in assessment and
+                                            prediction. With the help of deep learning algorithms, such as artificial neural
+                                            networks and convolutional neural networks, artificial intelligence in
+                                            orthopaedics has been able to improve diagnostic accuracy and speed, flag the
+                                            most critical and urgent patients for immediate attention, reduce the amount of
+                                            human error, reduce the strain on medical professionals, and improve care.
+                                            Because machine learning has shown diagnostic and prognostic uses in
+                                            orthopaedic surgery, physicians should continue to research these techniques and
+                                            be trained to use these methods effectively in order to improve orthopaedic
+                                            treatment.
+                                            </p>
+              <p><strong>Review:</strong> This paper provides a thorough exploration of the expanding role of machine learning 
+              in orthopaedic surgery, emphasizing its applications in diagnostic and prognostic tasks. The authors effectively 
+              summarize how AI, particularly machine learning (ML) and deep learning (DL), has been applied in various medical tasks 
+              such as fracture detection, bone tumor diagnosis, and grading osteoarthritis. One of the strengths of this review is 
+              its clear explanation of complex concepts like ML and DL, making it accessible even to those with limited prior knowledge. 
+              The paper also does a commendable job in illustrating the practical benefits of AI, such as improving diagnostic accuracy, 
+              reducing human error, and enhancing patient care. Reading this paper has deepened the understanding of the significant 
+              impact AI can have on medical fields, particularly in enhancing clinical decision-making and patient outcomes. It also 
+              raises interesting questions about the practical implementation of these technologies in everyday clinical settings and 
+              the need for standardized training for medical professionals.</p>
+              <a href='link-to-publication' target='_blank' rel='noopener noreferrer'>Read the full paper</a>
+            </div>
+            <div className='resource-content'>
+
             </div>
           </div>
         </div>
@@ -300,10 +470,25 @@ function App(){
       
       
       <section id='contact' style={{ display: activeSection === 'contact' ? 'block' : 'none' }}>
-        <h2>Contact</h2>
-        <p>This section contains contact information, email, LinkedIn Profile, etc...</p>
+            <h1>Contact Me</h1>
+            <p>Feel free to reach out to me through any of the following methods.</p>
+
+      <div className='contact-info'>
+        <h2>Contact Information</h2>
+        <p><strong>Email: </strong> <a href='mailto:a.vicenciodelmoral@gmail.com'>a.vicenciodelmoral@gmail.com</a></p>
+        <p><strong>LinkedIn: </strong><a href='https://www.linkedin.com/in/abdi-vicenciodelmoral/'>linkedin.com/in/abdi-vicenciodelmoral/</a></p>
+      </div>
+
+      <div className="contact-info">
+        <h2>Developer Communities</h2>
+        <p><strong>GitHub:</strong> <a href="https://github.com/AbdiVicenciodelmoral">github.com/AbdiVicenciodelmoral</a></p>
+      </div>
+
+
       </section>
 
+
+      </div>
       <div className='footer'>
             <p>@ 2024 Abdi Vicenciodelmoral</p>
       </div>

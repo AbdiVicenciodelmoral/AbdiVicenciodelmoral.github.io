@@ -5,6 +5,10 @@
   box-sizing: border-box;
 }
 
+h1{
+  padding-top: 20px;
+}
+
 .App {
   text-align: center;
 }
@@ -21,6 +25,41 @@
   color: black;
   width: 100%;
   box-sizing: border-box;
+}
+
+
+/* Reset styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Ensure body and html take full height */
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+/* Container should take full height */
+.App {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.content {
+  flex: 1;
+}
+
+/* Footer styles */
+.footer {
+  text-align: center;
+  padding: 20px;
+  background: #333;
+  color: white;
+  width: 100%;
+  margin-top: auto;
 }
 
 
@@ -275,6 +314,30 @@
 }
 
 
+/*Publications*/
+
+.publications{
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  border-left: 4px  solid #cd8bff;
+}
+
+.publications h1{
+  text-align: left;
+  color: #9452c6;
+  font-size: 2.0em;
+}
+
+.paper {
+  text-align: left;
+  font-family: Arial, sans-serif;
+  margin-bottom: 20px;
+}
+
+
+
+
 /* Research Hub */
 .tagline {
   font-size: 1.2em; /* Adjust the font size as needed */
@@ -343,6 +406,9 @@
   padding: 20px;
   background: #333;
   color: white;
+  position: relative;
+  bottom: 0;
+  width: 100%;
 }
 
 @media (max-width: 600px) {
@@ -374,4 +440,39 @@
     height: auto;
     min-height: 250px; /* Ensure a minimum height for readability */
   }
+}
+
+
+/* Ensure proper spacing in contact-info */
+
+.contact-info {
+  padding: 50px !important;
+  margin: 20px !important;
+  
+}
+
+.contact-info h2{
+  font-weight: bold;
+  font-size: xx-large;
+  color: #9452c6;
+}
+
+.contact-info p{
+  font-size: large;
+}
+
+
+/*********  Project   *********/
+.project-source{
+  text-align: left;
+  width: 50%;
+  margin: 0 auto;
+  padding-top: 40px;
+}
+
+.project-source h2{
+  padding-bottom: 10px;
+}
+.project-source p{
+  padding-bottom: 10px;
 }
