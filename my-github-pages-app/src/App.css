@@ -412,36 +412,6 @@ html, body {
   width: 100%;
 }
 
-@media (max-width: 600px) {
-  .section {
-    padding: 20px 10px;
-    margin: 10px auto;
-  }
-
-  .intro-background {
-    padding: 30px 10px;
-  }
-
-  .about-me-buttons {
-    flex-direction: column;
-  }
-
-  .about-me-buttons button {
-    margin: 10px 0;
-  }
-
-
-  .featured-resource, .resource-guides {
-    max-width: 100%; /* Make it full width on phones */
-    padding: 10px; /* Reduce padding for phones */
-  }
-
-  .resource-iframe {
-    max-width: 100%; /* Make it full width on phones */
-    height: auto;
-    min-height: 250px; /* Ensure a minimum height for readability */
-  }
-}
 
 
 /* Ensure proper spacing in contact-info */
@@ -476,4 +446,43 @@ html, body {
 }
 .project-source p{
   padding-bottom: 10px;
+}
+
+
+/* For Phone Screens */
+@media (max-width: 600px) {
+  .section {
+    padding: 20px 10px;
+    margin: 10px auto;
+  }
+
+  .intro-background {
+    padding: 30px 10px;
+  }
+
+  .about-me-buttons {
+    flex-direction: column;
+  }
+
+  .about-me-buttons button {
+    margin: 10px 0;
+  }
+
+
+  .featured-resource, .resource-guides {
+    max-width: 100%; /* Make it full width on phones */
+    padding: 10px; /* Reduce padding for phones */
+  }
+
+  .resource-iframe {
+    max-width: 100%; /* Make it full width on phones */
+    height: auto;
+    min-height: 250px; /* Ensure a minimum height for readability */
+  }
+
+  .project-source {
+    width: 100%;
+    padding-left: 10px; /* Adjust padding for better alignment on small screens */
+    padding-right: 10px;
+  }
 }
