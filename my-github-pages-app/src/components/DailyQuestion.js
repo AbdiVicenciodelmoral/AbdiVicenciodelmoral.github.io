@@ -88,7 +88,7 @@ const DailyQuestion = () => {
   
   return(
     <div className='daily-question'>
-        <h2>Machine Learning Question</h2>
+        <h2>Data Science & Machine Learning Study</h2>
         <p>Question: {currentQuestion.question}</p>
         <ul>
             {['A','B','C','D'].map(option =>(
