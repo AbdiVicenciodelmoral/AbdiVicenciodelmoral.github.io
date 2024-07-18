@@ -97,7 +97,7 @@ const DailyQuestion = () => {
                     className={getAnswerClass(option)}
                     onClick={()=>handleClick(option)}
                     >
-                    {option}.{currentQuestion[`answer${option}`]}
+                    {option }.{currentQuestion[`answer${option}`]}
                     </button>
                 </li>
             ))
