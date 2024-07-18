@@ -90,3 +90,78 @@ What is the 'tanh function' used for in neural networks?,To initialize weights,T
 What is 'Bayesian Optimization'?,A type of regularization,An optimization technique that builds a probabilistic model,An activation function,A feature scaling method,B
 What is the purpose of 'feature selection'?,To reduce the number of irrelevant features,To increase the number of features,To handle missing data,To optimize the learning rate,A
 What is the 'Leaky ReLU' activation function?,An activation function that allows a small gradient when the unit is not active,An optimization algorithm,An initialization method,A feature scaling technique,A
+What is 'variational autoencoder' (VAE) used for?,Generating synthetic data,Reducing dimensionality,Feature selection,Hyperparameter tuning,A
+What does the 'ELBO' in variational inference stand for?,Expected Lower Bound,Evidence Lower Bound,Empirical Likelihood Bound,Estimated Likelihood Bound,B
+What is 'Transfer Learning' in machine learning?,Training a model from scratch,Using pre-trained models for new tasks,Combining multiple models into one,Selecting important features from data,B
+What is the 'attention mechanism' in neural networks?,A technique to optimize weights,An approach to focus on important parts of the input,An algorithm for hyperparameter tuning,A method for data augmentation,B
+What is 'dropout' in neural networks primarily used for?,Reducing computational cost,Handling missing data,Preventing overfitting,Initializing weights,C
+What is the 'curse of dimensionality'?,The phenomenon where high-dimensional spaces lead to overfitting,The difficulty in optimizing models with many hyperparameters,The challenge of dealing with missing data in high-dimensional datasets,The process of transforming high-dimensional data into lower dimensions,A
+What is 'stochastic gradient descent' (SGD)?,A method for scaling data,A regularization technique,A variant of gradient descent that uses a subset of data,A feature selection method,C
+What is the 'LSTM' in LSTM networks?,Long Short-Term Memory,Long Sequential Training Model,Layered Short-Term Memory,Latent Semantic Training,A
+What is 'batch normalization' used for in neural networks?,To handle missing data,To accelerate training and improve stability,To initialize weights,To reduce model complexity,B
+What is 'Bayesian neural networks'?,Neural networks that use Bayesian inference for regularization,Neural networks that are trained using backpropagation,Neural networks with layers arranged in a Bayesian manner,Neural networks optimized using grid search,A
+What does 'Monte Carlo Dropout' refer to?,A technique for model ensembling,An approach to estimate model uncertainty,A method to initialize weights,A type of regularization,B
+What is 'Generative Adversarial Network' (GAN) composed of?,Two discriminators,One generator and one discriminator,Multiple generators,Multiple discriminators and one generator,B
+What is the purpose of 'hyperparameter optimization'?,To find the best model parameters,To tune the model’s architecture and settings for best performance,To optimize the training data,To reduce dimensionality,B
+What does 'BERT' stand for in natural language processing?,Bidirectional Encoder Representations from Transformers,Bidirectional Encoder Representations for Text,Bidirectional Embedding Representations from Transformers,Binary Encoder Representations for Text,A
+What is the main idea of 'Q-Learning' in reinforcement learning?,To optimize the policy function,To learn the quality of actions,To approximate the value function,To simulate future rewards,B
+What is the concept of 'model interpretability'?,The ability to tune model hyperparameters easily,The ability to understand and interpret the model's predictions,The ability to reduce model complexity,The ability to improve model accuracy,B
+What is the 'Kolmogorov-Smirnov test' used for?,Testing for normality in data,Comparing two probability distributions,Evaluating the independence of two variables,Testing for homoscedasticity,B
+What is 'Gradient Boosting' primarily used for?,Reducing overfitting,Improving model accuracy,Dealing with missing data,Scaling features,B
+What is 'Elastic Net' in regression?,A combination of L1 and L2 regularization,An alternative to linear regression,A method for data normalization,A type of neural network,A
+What is the purpose of 'grid search' in machine learning?,To reduce dimensionality,To search for optimal hyperparameters,To preprocess data,To evaluate model performance,B
+What is the 'Ridge' regression used for?,To handle multicollinearity,To reduce dimensionality,To handle missing data,To improve interpretability,A
+What does 'feature engineering' involve?,Creating new features from existing data,Selecting the most important features,Reducing the number of features,Scaling features,B
+What is the 'AdaBoost' algorithm used for?,To reduce overfitting,To handle missing data,To improve model performance by combining weak classifiers,To scale features,C
+What is 'Min-Max scaling'?,Normalizing data to have zero mean and unit variance,Scaling data to a fixed range,Removing outliers from data,Transforming data into binary format,B
+What is the 'purpose of early stopping'?,To avoid overfitting,To handle missing data,To select features,To optimize the learning rate,A
+What is the purpose of 'data wrangling'?,To visualize data,To clean and transform raw data into a usable format,To store data efficiently,To encrypt data,B
+What does 'ETL' stand for in data processing?,Extract, Transform, Load,Extract, Translate, Load,Extract, Test, Load,Extract, Transfer, Load,A
+What is 'A/B testing' used for?,To compare two versions of a variable to determine which performs better,To automate the training of machine learning models,To visualize data distributions,To preprocess data,A
+What is the 'CRISP-DM' methodology?,A process model for data mining,An algorithm for clustering data,A method for data visualization,A technique for data encryption,A
+What is 'feature scaling'?,Encoding categorical features,Handling missing data,Normalizing the range of independent variables,Selecting important features,C
+What does 'exploratory data analysis' (EDA) involve?,Testing hypotheses about data,Exploring data through statistical graphics and other visualization methods,Encrypting data for security,Transforming data into a usable format,B
+What is the purpose of a 'box plot'?,To display the distribution of data based on a five-number summary,To visualize the correlation between variables,To show the frequency of data points,To perform hypothesis testing,A
+What does 'data imputation' refer to?,Removing outliers from data,Replacing missing data with substituted values,Encoding categorical variables,Reducing dimensionality,B
+What is the 'K-means algorithm' used for?,Classification,Regression,Clustering,Dimensionality reduction,C
+What is the purpose of a 'confusion matrix'?,To evaluate the performance of a regression model,To summarize the performance of a classification algorithm,To visualize the distribution of a dataset,To reduce dimensionality,B
+What does 'ROC curve' stand for?,Rate of Change curve,Receiver Operating Characteristic curve,Regression Output Classification curve,Random Order Classification curve,B
+What is 'dimensionality reduction'?,Reducing the number of random variables under consideration,Increasing the number of features in a dataset,Transforming data into categorical variables,Normalizing data to a fixed range,A
+What is the 'purpose of cross-validation'?,To train multiple models simultaneously,To evaluate the generalization ability of a model,To select the best features for a model,To optimize the learning rate,B
+What is 'PCA' primarily used for in data science?,Data visualization,Feature selection,Dimensionality reduction,Data normalization,C
+What is 'time series analysis'?,Analyzing data points collected or recorded at specific time intervals,Analyzing static data sets,Encoding categorical data,Imputing missing data,A
+What is 'natural language processing' (NLP) concerned with?,Analyzing numerical data,Analyzing and modeling text data,Visualizing data distributions,Handling missing data,B
+What is 'ensemble learning'?,A method for handling missing data,A technique that combines multiple models to improve performance,A method for reducing dimensionality,A technique for scaling features,B
+What is the 'purpose of hypothesis testing'?,To encode categorical features,To test assumptions or claims about a dataset,To visualize data distributions,To reduce dimensionality,B
+What is 'linear regression' used for?,Classifying categorical data,Clustering data points,Modeling the relationship between a dependent variable and one or more independent variables,Reducing the number of features,C
+What is the 'random forest' algorithm?,An algorithm for clustering data,A regression algorithm,An ensemble learning method for classification and regression,An algorithm for reducing dimensionality,C
+What does 'data normalization' involve?,Encoding categorical variables,Scaling data to a range of [0, 1],Handling missing data,Reducing the number of features,B
+What is the purpose of a 'heatmap'?,To display data values in a table,To show the correlation between different variables,To visualize the distribution of a single variable,To perform dimensionality reduction,B
+What is 'sentiment analysis'?,Classifying text data based on sentiment,Generating synthetic data,Reducing dimensionality,Encoding categorical data,A
+What is the 'purpose of a scatter plot'?,To show the distribution of a single variable,To display the relationship between two numerical variables,To encode categorical data,To impute missing data,B
+What does 'TF-IDF' stand for in text mining?,Term Frequency-Inverse Document Frequency,Term Frequency-Index Document Frequency,Text Frequency-Inverse Document Frequency,Text Frequency-Index Document Frequency,A
+What does 'MLOps' stand for?,Machine Learning Operations,Machine Learning Optimization,Machine Learning Outputs,Machine Learning Observability,A
+What is the primary goal of MLOps?,To build machine learning models,To deploy and maintain machine learning models in production,To perform data analysis,To create data visualizations,B
+What is a 'CI/CD pipeline' in the context of MLOps?,Continuous Integration/Continuous Deployment,Continuous Improvement/Continuous Development,Continuous Inspection/Continuous Delivery,Continuous Implementation/Continuous Design,A
+What is the purpose of 'model versioning'?,To manage different versions of data,To keep track of different iterations of a machine learning model,To visualize model performance,To handle missing data,B
+What does 'model drift' refer to?,A model becoming outdated due to new data,The process of model training,The process of data cleaning,The visualization of model performance,A
+What is 'model monitoring'?,The process of selecting features,The process of keeping track of model performance in production,The process of hyperparameter tuning,The process of data augmentation,B
+What does 'orchestration' mean in MLOps?,Managing the lifecycle of machine learning models,Optimizing the performance of machine learning models,Scaling machine learning models,Deploying machine learning models,A
+What is 'feature store' in MLOps?,A database for storing features used in machine learning models,A tool for scaling features,A method for feature selection,A visualization technique,A
+What does 'A/B testing' involve in the context of MLOps?,Testing algorithms for performance,Comparing two versions of a model to determine which performs better,Optimizing the learning rate,Handling missing data,B
+What is the role of 'Kubeflow'?,A framework for distributed computing,An open-source platform for machine learning model deployment on Kubernetes,A library for data visualization,An algorithm for clustering data,B
+What is 'infrastructure as code' (IaC)?,The process of manually configuring infrastructure,Managing infrastructure through code,The process of data preprocessing,A method for feature scaling,B
+What does 'hyperparameter tuning' involve?,Adjusting the parameters of the learning algorithm,Selecting the features to be used,Scaling the data,Deploying the model,A
+What is the purpose of 'continuous training'?,To constantly retrain the model with new data,To evaluate model performance,To preprocess data,To select features,A
+What is 'experiment tracking'?,Monitoring the deployment of models,Keeping records of model training experiments and their outcomes,Optimizing model performance,Scaling the data,B
+What is 'MLflow' used for?,A platform for managing the machine learning lifecycle,A tool for hyperparameter tuning,A method for data normalization,A visualization library,A
+What is 'data lineage' in MLOps?,The history of data as it flows through the pipeline,The process of data cleaning,The transformation of raw data into features,The visualization of data distributions,A
+What does 'SageMaker' provide?,A cloud service for building, training, and deploying machine learning models,An algorithm for clustering data,A method for data normalization,A tool for feature selection,A
+What is the purpose of 'model registry'?,To store and manage trained machine learning models,To select features for training,To preprocess data,To evaluate model performance,A
+What is 'shadow deployment'?,Deploying a model in a way that it runs in parallel with the current production model without affecting it,Deploying a model incrementally,Deploying a model using batch processing,Deploying a model for offline testing,A
+What does 'blue-green deployment' refer to?,A deployment strategy where two environments are used to reduce downtime,A technique for hyperparameter tuning,A method for data preprocessing,A way to handle imbalanced data,A
+What is 'data drift' in MLOps?,Changes in data distribution over time,The process of data cleaning,The method of data augmentation,The visualization of data distributions,A
+What is the role of 'Docker' in MLOps?,Containerizing applications to ensure consistent environments across development and production,Hyperparameter tuning,Data visualization,Model selection,A
+What is 'feature engineering'?,Creating new features from raw data,Scaling features,Selecting the best features,Deploying models,A
+What does 'continuous integration' (CI) refer to?,The practice of merging all developer working copies to a shared mainline several times a day,The process of model selection,The practice of hyperparameter tuning,The method of data preprocessing,A
+What is 'model explainability'?,Understanding how a model makes its predictions,The process of deploying models,The practice of hyperparameter tuning,Scaling the features,B
